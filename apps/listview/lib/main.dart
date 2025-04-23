@@ -37,7 +37,7 @@ class _InfiniteListViewState extends State<InfiniteListView> {
         child: Icon(isDark ? Icons.wb_sunny_outlined : Icons.bubble_chart),
       ),
       appBar: AppBar(
-        title: Text('ListView example'),
+        title: Text('ListView (v3.29.3)'),
       ),
       body: ListView.builder(
           itemCount: 100,
